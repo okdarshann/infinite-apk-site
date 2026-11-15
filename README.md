@@ -4,7 +4,7 @@
 
 Infinite is a free goal and progress tracker. See how much of your year, month and week has passed, set goals from daily to yearly, and keep each other going in teams.
 
-**Website:** https://okdarshann.github.io/infinite-apk-site/
+**Website:** https://okdarshann.github.io/infinite-apk-site/       
 **Use it in your browser:** https://okdarshann.github.io/infinite/
 
 ## What you can do

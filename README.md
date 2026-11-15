@@ -1,25 +1,23 @@
-# Infinite landing page
+# Infinite APK
 
-One-page site for the Infinite app, with a direct Android APK download.
+**We deserve better.**
 
-```
-index.html      the page
-style.css       styles (same colours as the app)
-script.js       fills the live year bar from the visitor's date
-deserve.png     logo and favicon
-downloads/      Infinite-1.0-android-debug.apk
-```
+Infinite is a free goal and progress tracker. See how much of your year, month and week has passed, set goals from daily to yearly, and keep each other going in teams.
 
-## Run locally
+**Website:** https://okdarshann.github.io/infinite-apk-site/
+**Use it in your browser:** https://okdarshann.github.io/infinite/
 
-Open `index.html` in a browser, or run `python3 -m http.server 5500` in this folder.
+## What you can do
 
-## Host it (GitHub Pages)
+- **Track your progress.** Live progress for the year, quarter, month and week, with a quote of the day.
+- **Set goals.** Daily, weekly, monthly and yearly goals, with a habit sheet to tick them off.
+- **Plan on a Life Calendar.** See your whole year at a glance.
+- **Take notes.** Rich text notes with highlighting. Notes you share with a team stay in sync.
+- **Work in teams.** Create or join a team with an invite code, share goals, chat and cheer each other on.
+- **Stay inspired.** Stories and songs matched to your goals, plus your own YouTube links.
+- **Start right away.** Use it as a guest, or sign in with email to sync your data.
 
-Push this folder to a repo, then Settings > Pages > Deploy from a branch > `main` and `/ (root)`.
+## Download for Android
 
-## Ship a new APK
+Get the APK from the website above and open it on your phone. It needs Android 7.0 or newer. When Android asks, allow the install once, then open Infinite.
 
-1. Put the new file in `downloads/`.
-2. In `index.html`, change the file name in both Download APK links, the "File" line, the version and size, and the SHA-256 checksum.
-   Get the checksum with `sha256sum downloads/<file>.apk`.
